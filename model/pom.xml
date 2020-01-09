@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>de.mtag.tankstelle</groupId>
-    <artifactId>saeuleClient</artifactId>
+    <artifactId>model</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>saeuleClient</name>
+    <name>model</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -19,11 +19,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>de.mtag.tankstelle</groupId>
-            <artifactId>model</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
