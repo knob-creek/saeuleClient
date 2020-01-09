@@ -35,7 +35,7 @@ class SäuleTest {
     @Test
     void bezahlungAbgeschlossenTest() throws Exception {
         MvcResult mvcResult = mockMvc.perform(
-                MockMvcRequestBuilders.post("")
+                MockMvcRequestBuilders.post("säule/bezahlungAbgeschlossen")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(tankVorgangJacksonTester.write(new TankVorgang(UUID.randomUUID())).getJson())
                         .accept(MediaType.APPLICATION_JSON)
